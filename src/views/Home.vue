@@ -2,7 +2,7 @@
   <div>
     <hero />
     <hr />
-    <home-content />
+    <home-content msg="click here to send message to angular" />
   </div>
 </template>
 
