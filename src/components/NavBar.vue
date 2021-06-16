@@ -97,7 +97,8 @@ export default {
   name: "NavBar",
   methods: {
     login() {
-      this.$auth.loginWithRedirect();
+      // this.$auth.loginWithRedirect();
+      this.$auth.loginWithRedirect({prompt: "none"});
     },
     logout() {
       this.$auth.logout();
