@@ -7,13 +7,7 @@
         <router-view />
       </div>
     </div>
-    <footer class="bg-light text-center p-3">
-      <div class="logo"></div>
-      <p>
-        Sample project provided by
-        <a href="https://auth0.com">Auth0</a>
-      </p>
-    </footer>
+    <footer class="bg-light text-center p-3"></footer>
   </div>
 </template>
 
