@@ -1,4 +1,5 @@
 const webpack = require("webpack");
+import { auth0app, themeColor, background_color } from "../../auth_config.json";
 
 module.exports = {
   devServer: {
@@ -17,10 +18,10 @@ module.exports = {
   },
 
   pwa: {
-    name: "Auth0 - 1",
-    themeColor: '#F5A623',
+    name: auth0app,
+    themeColor,
     manifestOptions: {
-      background_color: '#D0021B'
+      background_color
     }
   }
 };

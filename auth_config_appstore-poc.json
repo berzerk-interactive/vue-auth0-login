@@ -1,5 +1,7 @@
 {
   "domain": "amwelldev.amwell-dev.auth0.com",
   "clientId": "AnEPW5fsBmJeMXaeJEknee9jvGQpqX5a",
-  "auth0app": "appstore-poc"
+  "auth0app": "appstore-poc",
+  "themeColor": "#F5A623",
+  "background_color": "#D0021B"
 }

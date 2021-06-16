@@ -1,5 +1,7 @@
 {
   "domain": "dev-gkqb2hjc.us.auth0.com",
   "clientId": "jmDb69L0Dr1cG3fxgggUNnZSHNN7c4xX",
-  "auth0app": "vue 3000 App"
+  "auth0app": "vue 3000 App",
+  "themeColor": "#F5A623",
+  "background_color": "#D0021B"
 }

@@ -1,5 +1,7 @@
 {
   "domain": "dev-gkqb2hjc.us.auth0.com",
   "clientId": "7xupC8Tct6a9JEyXiSgu5GYQUxeBSwog",
-  "auth0app":"ng 4200 App"
+  "auth0app":"ng 4200 App",
+  "themeColor": "#7FFF00",
+  "background_color": "#F00"
 }
