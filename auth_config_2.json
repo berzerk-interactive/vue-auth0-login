@@ -1,4 +1,5 @@
 {
   "domain": "dev-gkqb2hjc.us.auth0.com",
-  "clientId": "jmDb69L0Dr1cG3fxgggUNnZSHNN7c4xX"
+  "clientId": "jmDb69L0Dr1cG3fxgggUNnZSHNN7c4xX",
+  "auth0app": "vue 3000 App"
 }

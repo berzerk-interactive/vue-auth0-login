@@ -1,4 +1,5 @@
 {
   "domain": "dev-gkqb2hjc.us.auth0.com",
-  "clientId": "7xupC8Tct6a9JEyXiSgu5GYQUxeBSwog"
+  "clientId": "7xupC8Tct6a9JEyXiSgu5GYQUxeBSwog",
+  "auth0app":"ng 4200 App"
 }

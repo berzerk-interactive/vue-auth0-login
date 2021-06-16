@@ -20,6 +20,8 @@
             <li class="nav-item">
               <router-link to="/" class="nav-link">Home</router-link>
             </li>
+            <li class="nav-link">domain: {{domain}}<br />{{clientId}}</li>
+            <li class="nav-link">Auth0 app: {{auth0app}}</li>
           </ul>
           <ul class="navbar-nav d-none d-md-block">
             <li v-if="!$auth.isAuthenticated && !$auth.loading" class="nav-item">
@@ -93,8 +95,16 @@
 </template>
 
 <script>
+import { domain, clientId, auth0app } from "../../auth_config.json";
 export default {
   name: "NavBar",
+  data(){
+    return {
+      domain,
+      clientId,
+      auth0app
+    }
+  },
   methods: {
     login() {
       // this.$auth.loginWithRedirect();
